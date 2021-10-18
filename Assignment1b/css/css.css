@@ -1,0 +1,134 @@
+header h1{
+    color: rebeccapurple;
+    text-decoration-line: underline;
+}
+body{
+    background-image: url(../image.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100px 107px;
+    padding-bottom: 4em;
+    }
+figcaption{
+  font-style: italic;
+    color: darkviolet;
+    border: dashed lightgreen 0.5em;
+    text-align: center;
+}
+em{
+    color: cornflowerblue;
+}
+.azure{
+    background-color: azure;
+}
+.lightgoldenrodyellow{
+    background-color: lightgoldenrodyellow;
+}
+.red{
+    background-color: lightcoral;
+}
+th,td{
+    border: solid orange 2px;
+    padding: 0.4em
+}
+thead tr:first-of-type{
+    background-color: darkorange;
+    color: white;
+}
+table{
+    width: 60%;
+	margin: 5% auto;
+	border-collapse: collapse;
+
+}
+tr:nth-of-type(odd){
+    background-color: aquamarine;
+}
+tr:nth-of-type(even){
+    background-color: aqua;
+}
+#text{
+    text-align: center;
+    font-weight: bold;
+    color: deeppink;
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+a:link{
+    color:white;
+    }
+a:visited{
+    color: black;
+    }
+a:active{
+    color: crimson;
+    background-color: blueviolet;
+    }
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    }
+nav ul{
+    padding: 0.5em;
+}
+nav ul li{
+    display: inline;
+    margin: 0 2%;
+}
+nav ul li a {
+    padding: 0.5em 0;
+    margin: 0 1%;
+    display: inline-block;
+    width: 13em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 90%;
+}
+p a:link{
+    color: blue;
+}
+nav ul li a:link{
+    text-decoration: none;
+}
+.pink{
+    background-color: deeppink;
+    color: white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.green{
+    background-color: green;
+    color:white;
+}
+.purple{
+    background-color: purple;
+    color:white;
+}
+aside{
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float:right;
+    font-style: italic;
+    background-color: lightyellow;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+article{
+    font-style: italic;
+}
+section{ 
+    text-align: center;
+    background-color: aqua;
+    border: solid brown 3px;
+    border-radius: 5%;
+    padding: 1em;
+}
